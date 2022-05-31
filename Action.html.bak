@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+  <title>NewWORLDTheaters</title>
+</head>
+<style>
+body{
+background-color: #FDF5DF;
+padding: 0;
+margin: 0;
+position: relative;
+box-sizing: border-box;
+}
+.logo{
+color: white;
+}
+.navigation{
+width: 100%;
+background-color: grey;
+height: 80px
+}
+ul{
+list-style: none;
+padding: 0;
+margin: 0;
+position: absolute;
+}
+ul li{
+float: right;
+margin-top: 20px;
+}
+ul li a{
+width: 150px;
+display: block;
+text-decoration: none;
+font-size: 20px;
+text-align: center;
+padding: 10px;
+border-radius: 10px;
+color: white;
+}
+a:hover{
+background-color: blue;
+}
+ul li ul{
+background-color: black;
+display: none;
+}
+ul li:hover ul{
+display: block;
+}
+ul li ul li{
+float: none;
+}
+.header{
+position: absolute;
+top: 100px;
+left: 550px;
+font-weight: bold;
+font-size: 50px;
+}
+.column{
+float: left;
+width: 33.33%;
+padding: 5px;
+position: absolute;
+top: 1000px;
+}
+.row ::after{
+content: "";
+display: table;
+clear: both;
+
+}
+.container img{
+position: absolute;
+top: 200px;
+left: 800px;
+height: 500px;
+width: 300px;
+
+}
+.image img{
+position: absolute;
+top: 200px;
+left: 200px;
+height: 500px;
+width: 300px;
+
+}
+h1{
+color: black;
+position: absolute;
+top: 700px;
+left: 900px;
+}
+h3{
+color: black;
+position: absolute;
+top: 700px;
+left: 300px;
+font-size: 30px;
+}
+footer{
+position: absolute;
+top: 900px;
+left: px;
+background: black;
+color: white;
+width: 100%
+
+}
+h3 a:hover{
+color: white;
+}
+h1 a:hover{
+color: white;
+}
+</style>
+
+<body>
+<div class="navigation">
+         <header>
+		 
+		 <nav>
+		 
+		 <div class="logo">NewWORLDTHEATRE</div>
+		 <ul>
+         <li><a href="#">FEEDBACK</a></li>
+         <li><a href="#">CONTACT</a></li>
+         <li><a href="#">TICKETS</a></li>
+         <li><a href="#">GENRES</a>
+		  <ul>
+		 <li><a href="Action.html">ACTION</a></li>
+		 <li><a href="comedy.html">COMEDY</a></li>
+		 </ul>
+		 </li>
+		 </ul>
+		 
+		 </nav>
+		 
+		 </header>
+</div>
+
+<div class="header">Action Movies</div>	   
+		<div class="row">
+			 <div class="container">
+		     <img src="C:\Users\cse21-046\Downloads\xl_6856242_28bdfeb4.jpg" width="100%;" alt="">
+			 <h3><a href="daredevil.html">INFO</a><h3>
+			 </div>
+			 <div class="image">
+		     <img src="C:\Users\cse21-046\Downloads\xl_287978_0a528318.jpg" width="100%;" alt="">
+			 <h1><a href="kingsman.html">INFO</a></h1>
+			 </div>
+		
+		</div>	
+
+<footer>
+
+         New World Theatre<br>Private bag 12345</br>email: theatre@gmail.com
+
+       </footer>		
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

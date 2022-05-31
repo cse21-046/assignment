@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+  <title>NewWORLDTheaters</title>
+</head>
+<style>
+body{
+background-color: #FDF5DF;
+padding: 0;
+margin: 0;
+position: relative;
+box-sizing: border-box;
+}
+.logo{
+color: white;
+}
+.navigation{
+width: 100%;
+background-color: grey;
+height: 80px
+}
+ul{
+list-style: none;
+padding: 0;
+margin: 0;
+position: absolute;
+}
+ul li{
+float: right;
+margin-top: 20px;
+}
+ul li a{
+width: 150px;
+display: block;
+text-decoration: none;
+font-size: 20px;
+text-align: center;
+padding: 10px;
+border-radius: 10px;
+color: white;
+}
+a:hover{
+background-color: blue;
+}
+ul li ul{
+background-color: black;
+display: none;
+}
+ul li:hover ul{
+display: block;
+}
+ul li ul li{
+float: none;
+}
+
+</style>
+
+<body>
+<div class="navigation">
+         <header>
+		 
+		 <nav>
+		 
+		 <div class="logo">NewWORLDTHEATRE</div>
+		 <ul>
+         <li><a href="#">FEEDBACK</a></li>
+         <li><a href="#">CONTACT</a></li>
+         <li><a href="tickets.html">TICKETS</a></li>
+         <li><a href="#">GENRES</a>
+		  <ul>
+		 <li><a href="Action.html">ACTION</a></li>
+		 <li><a href="comedy.html">COMEDY</a></li>
+		 </ul>
+		 </li>
+		 </ul>
+		 
+		 </nav>
+		 
+		 </header>
+</div>
+
+<body>
+   <form name="dataentry">
+   <h1>Customer Info</h1>
+   <p>Customer Full Names:</p>
+   <input type="text"></input>
+   <p>Bank Card Number</p>
+   <input type="text"></input>
+   <p>cvc card digits</p>
+   <input type="text" placeholder="last 3 digits behind the card"></input>
+   <p>Select ticket to purchase</p>
+   <input type="radio" name="Ticket Type">Premium P100
+   <input type="radio" name="Ticket Type">Standard P40
+   <p>Card Pin</p>
+   <input type="password"></input>
+   </form>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
